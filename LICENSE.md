@@ -54,7 +54,7 @@ MiscSection:NewButton("Fly (E)", "Fly Makes U Fly Press E TO Turn On/Off", funct
     loadstring(game:HttpGet(('https://pastebin.com/raw/vhGSLy7Y'),true))()
 end)
 MiscSection:NewButton("invisibility (F)", "F TO Turn On/Off", function()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/KBsibJ74'),true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/GodSpeed34564356/F/main/README.md'),true))()
 end)
 
 
