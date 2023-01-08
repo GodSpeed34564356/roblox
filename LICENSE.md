@@ -66,6 +66,10 @@ MiscSection:NewToggle("infinite jump", "", function(state)
     end
 end)
 
+MiscSection:NewButton("Auto Clicker (V)", "", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/6tzk26wD'))()
+end)
+
 local settings = Window:NewTab("settings")
 local settingsSection = settings:NewSection("settings")
 
